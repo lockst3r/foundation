@@ -1,0 +1,83 @@
+.audiences {
+  background-color: rgba(0, 161, 198, 0.07);
+  padding: 50px 15px;
+
+  @include for-large-up {
+    padding: 108px 0 110px;
+  }
+}
+
+.audience {
+  text-align: center;
+  @include for-large-up {
+    width: 555px;
+    margin: 0 auto;
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+  }
+  &__title {
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.357143px;
+    @include for-large-up {
+      margin-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__description {
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 34px;
+    @include for-large-up {
+      margin-top: 30px;
+    }
+  }
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  @include for-large-up {
+    flex-direction: row;
+    margin: 111px auto 0;
+    justify-content: space-around;
+    display: flex;
+    width: 1139px;
+  }
+    &__name {
+      margin-top: 22px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    &__img {
+      margin-top: 22px;
+    }
+    &__user {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      min-width: 290px;
+      height: 300px;
+      background-color: #fff;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      transition: all 0.5s;
+      cursor: pointer;
+
+      @include for-large-up {
+        margin-left: 30px;
+        min-width: 262px;
+    }
+}
+
+}

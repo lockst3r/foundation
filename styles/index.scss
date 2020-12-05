@@ -7,8 +7,10 @@
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
+@import 'audiences.scss';
 @import 'advices.scss';
 @import 'footer.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -39,15 +41,3 @@ html {
     display: none;
   }
  }
-
-
- @import 'breakpoints.scss';
- @import 'variables.scss';
- @import 'header.scss';
- @import 'footer.scss';
- @import 'headline.scss';
- @import 'common.scss';
- @import 'about.scss';
- @import 'customers.scss';
- @import 'features.scss';
- @import 'advices.scss';
