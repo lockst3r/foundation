@@ -1,12 +1,14 @@
-@import 'header.scss';
-@import 'footer.scss';
-@import 'headline.scss';
+
+@import 'breakpoints.scss';
 @import 'common.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'headline.scss';
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
 @import 'advices.scss';
-
+@import 'footer.scss';
 * {
   box-sizing: border-box;
 }
@@ -20,14 +22,32 @@ html {
 .page {
   width: 100%;
   overflow-x: hidden;
-}
-
-@media screen and (min-width: 400px) {
-  .page {
+  @include for-large-up {
     display: flex;
     flex-direction: column;
     width: 1400px;
     margin: auto;
     min-height: 100vh;
   }
+
 }
+
+
+
+ .hide_mobile{
+  @include for-large-down {
+    display: none;
+  }
+ }
+
+
+ @import 'breakpoints.scss';
+ @import 'variables.scss';
+ @import 'header.scss';
+ @import 'footer.scss';
+ @import 'headline.scss';
+ @import 'common.scss';
+ @import 'about.scss';
+ @import 'customers.scss';
+ @import 'features.scss';
+ @import 'advices.scss';

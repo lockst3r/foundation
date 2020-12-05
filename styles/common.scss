@@ -9,19 +9,21 @@
   border-radius: 2px;
   border: none;
   padding: 17px 28px 18px 28px;
+  @include for-large-up {
+    width: 160px;
+    height: 48px;
+  }
 }
 
-@media screen and (min-width: 400px) {
-  .action-buttom {
-    height: 48px;
-    width: 160px;
-    background-color: #3040c4;
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 13px;
-    font-weight: 700;
-    border-radius: 2px;
-    border: none;
-    padding: 17px 28px 18px 28px;
+.hide_desktop {
+  display: none;
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  @mixin for-large-down {
+    display: none;
   }
 }

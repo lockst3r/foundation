@@ -2,6 +2,32 @@
   margin-top: auto;
   display: flex;
   flex-direction: column;
+  &__description {
+    display: none;
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: $text-color-light-grey;
+    @include for-large-up {
+      display: block;
+    }
+  }
+  &____line {
+    border-top: 1px solid #2b292d;
+    width: 100%;
+    margin: 0;
+    opacity: 0.1;
+    margin-top: 40px;
+    @include for-large-up {
+      margin: 0px;
+    }
+  }
+  .logo {
+    @include for-large-down {
+      display: none;
+    }
+  }
 }
 
 .about-company {
@@ -10,47 +36,68 @@
 
 .footer-navigation {
   display: flex;
-  width: 1140px;
-  margin: 0 auto;
-  height: 339px;
-}
-
-.footer__description {
-  line-height: 26px;
-  font-size: 18px;
-  width: 360px;
-  margin-top: 26px;
-  color: rgba(43, 41, 45, 0.6);
+  margin: 0;
+  flex-direction: column;
+  @include for-large-up {
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    height: 339px;
+    flex-direction: row;
+  }
 }
 
 .downloads {
-  margin-top: 25px;
-}
-
-.downloads__items {
-  margin-right: 10px;
+  margin: 25px 15px 0 15px;
+  display: flex;
+  justify-content: center;
+  @include for-large-up {
+    margin: 0;
+    margin-top: 25px;
+    justify-content: left;
+  }
+  &__items {
+    margin-right: 10px;
+  }
 }
 
 .additional-navigation {
-  margin-top: 60px;
-  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
   display: flex;
+  flex-direction: column;
+  @include for-large-up {
+    margin-left: auto;
+    margin-top: 60px;
+    flex-direction: row;
+  }
+  &___column {
+    margin-top: 30px;
+    @include for-large-up {
+      margin-top: 0px;
+      margin-right: 29px;
+    }
+  }
 }
 
 .nav-links {
   width: 265px;
-}
-
-.additional-navigation___column {
-  margin-right: 29px;
-}
-
-.nav-links___title {
-  font-size: 22px;
-  line-height: 28px;
-  color: #2b292d;
-  font-weight: 700;
-  margin: 0;
+  &___title {
+    font-size: 22px;
+    line-height: 28px;
+    color: #2b292d;
+    font-weight: 700;
+    margin: 0;
+  }
+  &___list {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: $text-color-light-grey;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+  }
 }
 
 .userful-link {
@@ -59,47 +106,85 @@
   margin: 0 auto;
 }
 
-.footer__line {
-  border-top: 1px solid #2b292d;
-  width: 100%;
-  margin: 0;
-  opacity: 0.1;
-}
-
 .footer-links {
   display: flex;
-  width: 1140px;
-  margin: 0 auto;
-  height: 50px;
-  align-items: center;
+  margin-left: 15px;
+  flex-direction: column;
+  @include for-large-up {
+    height: 50px;
+    margin: 0 auto;
+    width: 1140px;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .terms {
   font-size: 14px;
-  line-height: 50px;
+  line-height: 22px;
+  margin-top: 30px;
+  @include for-large-up {
+    font-size: 14px;
+    line-height: 50px;
+    margin-top: 0px;
+  }
+  &__item {
+    text-decoration: none;
+    color: #2b292d;
+    opacity: 60%;
+    margin-right: 22px;
+  }
 }
+  .logo-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    @include for-large-up {
+      display: none;
+    }
+  
+    &__image{
+      width: 60px;
+      height: 60px;
+    }
+    
+    &__name{
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    &__description{
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: rgba(43, 41, 45, 0.6);
+    }
+  }
 
-.terms__item {
-  text-decoration: none;
-  color: #2b292d;
-  opacity: 60%;
-  margin-right: 22px;
-}
+  .social-links {
+    margin-top: 30px;
+    margin-bottom: 23px;
+    @include for-large-up {
+      margin-left: auto;
+      margin-bottom: 0px;
+    }
+    &__item {
+      margin-right: 20px;
+      &:last-child {
+        margin-left: 0px;
+      }
+    }
+  }
 
-.social-links {
-  margin-left: auto;
-}
 
-.social-links__item {
-  margin-left: 20px;
-}
 
-.nav-link___list {
-  list-style-type: none;
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
-  margin: 0;
-  padding: 0;
-  margin-top: 18px;
-}
+  
+  @include for-large-down {
+    .footer .logo{
+      display: none;
+    }
+  }
