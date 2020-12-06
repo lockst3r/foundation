@@ -184,7 +184,7 @@
   }
 }
 .headline__content {
-  margin: 35px 15px 24px 15px;
+  margin: 35px 15px 33px 0px;
 }
 @media screen and (min-width: 1400px) {
   .headline__content {
@@ -193,8 +193,6 @@
   }
 }
 .headline__title {
-  height: 205px;
-  width: 290px;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -204,7 +202,7 @@
   .headline__title {
     height: 165px;
     width: 754px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
