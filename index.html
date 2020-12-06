@@ -18,19 +18,21 @@
       <header class="header">
         <div class="logo">
           <img class="logo__image"
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png" alt="logo">
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png" alt="logo" />
           <div class="logo__text">
             <div class="logo__name">Foundation</div>
             <div class="logo__description">Startup landing template</div>
           </div>
         </div>
         <nav class="navigation">
-          <a href="#" class="navigation__item navigation__item_selected">Home</a>
-          <a href="#" class="navigation__item">Stories</a>
-          <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
+          <a class="navigation__item navigation__item_selected" href="#">Home</a>
+          <a class="navigation__item" href="#">Stories</a>
+          <a class="navigation__item" href="#">Library<i class="navigation__arrow"></i></a>
         </nav>
-        <button class="action-buttom header__buttom">Get Started</button>
-        <button class="header__menu-buttom"><span class="header__menu-buttom-icon"></span></button>
+        <button class="action__button header__button">Get Started</button>
+        <button class="header__menu-button">
+          <span class="header__menu-icon"></span>
+        </button>
       </header>
 
       <!-------------------------------------Headline------------------------------------->
@@ -38,16 +40,22 @@
       <section class="headline">
         <div class="headline__content">
           <h1 class="headline__title">Build stunning websites & apps.</h1>
-          <p class="headline__description">Create live segments and target the right people for messages based on their
-            behaviors.</p>
-          <div class="headline__action">
-            <button class="action-buttom headline__action-btn">Get Started</button>
-            <button class="headline__learn-more-buttom headline__action-btn">Learn More</button>
+          <p class="headline__description">
+            Create live segments and target the right people for messages
+            based on their behaviors.
+          </p>
+          <div class="headline__actions">
+            <button class="action__button headline__action-btn">
+              Get Started
+            </button>
+            <button class="headline__learn-more-btn headline__action-btn">
+              Learn More
+            </button>
           </div>
         </div>
         <img class="headline__banner"
           src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png"
-          alt="Headline Banner">
+          alt="Headline Banner" />
       </section>
     </div>
 
@@ -187,8 +195,10 @@
           month.</p>
       </div>
       <div class="audience__buttons">
-        <button class="action-buttom headline__action-btn">Get Started</button>
-        <button class="headline__learn-more-buttom headline__action-btn">Learn More</button>
+        <button class="action__button headline__action-btn">
+          Get Started
+        </button>
+        <button class="headline__learn-more-btn headline__action-btn"> Learn More</button>
       </div>
       <div class="audience-card">
         <a class="user-card audience-card-buttom" href="#">
@@ -233,12 +243,13 @@
       <div class="order__details">
         <h3 class="order__title">Start your free trial.</h3>
         <p class="order__text">Get notified about company updates, news and blog posts. We hate spam.</p>
-        <form class="order__form"><form>
-        <input class="order__email" type="email" placeholder="Enter your email">
-        <button class="order__buttom action-buttom">Get Started</button>
-      </form>
-        <p class="order__terms">Free 14-day trial · Easy setup · Cancel any time. Check out <a class="order__term-link"
-            href="#">Terms of Use.</a></p>
+        <form class="order__form">
+          <form>
+            <input class="order__email" type="email" placeholder="Enter your email">
+            <button class="action__button headline__action-btn">Get Started</button>
+          </form>
+          <p class="order__terms">Free 14-day trial · Easy setup · Cancel any time. Check out <a
+              class="order__term-link" href="#">Terms of Use.</a></p>
       </div>
     </section>
     <!-------------------------------------Footer------------------------------------->
