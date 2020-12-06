@@ -641,6 +641,7 @@
   background: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
+  margin-bottom: 12px;
   height: 48px;
   width: 100%;
   text-align: center;
@@ -650,6 +651,7 @@
 @media screen and (min-width: 1400px) {
   .order__email {
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .order__email::placeholder {
@@ -662,7 +664,7 @@
 @media screen and (min-width: 1400px) {
   .order__buttom {
     display: block;
-    margin-top: 0;
+    margin-top: 0px;
     margin-left: 10px;
     width: 160px;
     height: 48px;
@@ -866,7 +868,6 @@
 @media screen and (min-width: 1400px) {
   .social-links {
     margin-left: auto;
-    margin-bottom: 0px;
   }
 }
 .social-links__item {

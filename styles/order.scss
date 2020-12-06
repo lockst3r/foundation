@@ -11,8 +11,10 @@
     max-width: 555px;
   }
   &__image {
+    
     max-width: 200px;
     @include for-large-up {
+      
       max-width: 269px;
       margin-right: 121px;
     }
@@ -42,6 +44,7 @@
     background: #ffffff;
     border: 1px solid rgba(43, 41, 45, 0.2);
     border-radius: 2px;
+    margin-bottom: 12px;
     height: 48px;
     width: 100%;
     text-align: center;
@@ -49,6 +52,7 @@
     line-height: 13px;
     @include for-large-up {
       margin-top: 0;
+      margin-bottom: 0;
     }
     &::placeholder {
       color: #2B292D;
@@ -59,7 +63,7 @@
     width: 100%;
     @include for-large-up {
       display: block;
-      margin-top: 0;
+      margin-top: 0px;
       margin-left: 10px;
       width: 160px;
       height: 48px;
