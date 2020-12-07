@@ -8,7 +8,7 @@
 
 ###npm start
 
-###Runs the app in the development mode. Open https://nexend.github.io/foundation-website/ to view in the browser.
+###Runs the app in the development mode. Open https://lockst3r.github.io/foundation/ to view in the browser.
 
 ###The page will reload if you make edits.
 
