@@ -12,14 +12,14 @@
 
 ### The page will reload if you make edits.
 
-##The tech stack is:
+## The tech stack is:
 
 - ul
-+ ul HTML5
-+ ul CSS3
-+ ul FlexBox
-+ ul Sass(Scss)
-+ ul BEM methodology
++  HTML5
++  CSS3
++  FlexBox
++  Sass(Scss)
++  BEM methodology
 
-###Author:
+### Author:
 Yevhenii Ushakov
