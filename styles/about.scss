@@ -22,15 +22,15 @@
     }
   }
   &__title {
+    line-height: 32px;
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
-    line-height: 32px;
-    margin: 0;
   }
   &__text {
-    font-size: 22px;
-    line-height: 32px;
     margin: 0;
     margin-top: 6px;
+    line-height: 32px;
+    font-size: 22px;
   }
 }

@@ -1,23 +1,22 @@
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $main-color-pink;
 
   @include for-large-up {
     padding-top: 39px;
   }
 }
 .header {
-  height: 64px;
-  width: 100%;
-  background-color: #fff;
   display: flex;
   align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: $background-color-white;
   padding-left: 15px;
 
   @include for-large-up {
     width: 1140px;
     height: 62px;
     margin: auto;
-    display: flex;
     background-color: transparent;
   }
 
@@ -29,11 +28,11 @@
     }
   }
   &__menu-button {
+    margin-left: auto;
     width: 58px;
     height: 100%;
-    margin-left: auto;
     background: transparent;
-    border: none;
+    border: 0;
     border-left: 1px solid #00000026;
 
     @include for-large-up {
@@ -41,10 +40,13 @@
     }
   }
   &__menu-icon {
+    display: inline-block;
     width: 18px;
     height: 13px;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
-    display: inline-block;
+    @include for-large-up {
+    display: none;
+    }
   }
 }
 .logo {

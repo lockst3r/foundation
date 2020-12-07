@@ -1,7 +1,7 @@
 .footer {
-  margin-top: auto;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
   &__description {
     display: none;
     line-height: 26px;
@@ -14,9 +14,9 @@
     }
   }
   &____line {
-    border-top: 1px solid #2b292d;
-    width: 100%;
     margin: 0;
+    border-top: 1px solid $text-color-light-grey;
+    width: 100%;
     opacity: 0.1;
     margin-top: 40px;
     @include for-large-up {
@@ -48,9 +48,9 @@
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
   display: flex;
   justify-content: center;
+  margin: 25px 15px 0 15px;
   @include for-large-up {
     margin: 0;
     margin-top: 25px;
@@ -62,10 +62,10 @@
 }
 
 .additional-navigation {
-  margin-left: 15px;
-  margin-right: 15px;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
   @include for-large-up {
     margin-left: auto;
     margin-top: 60px;

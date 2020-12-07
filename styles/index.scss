@@ -20,6 +20,7 @@ html {
   font-weight: 400;
   color: #2b292d;
 }
+
 h1,
 h2,
 h3,
@@ -32,6 +33,7 @@ h6 {
 p {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -40,10 +42,10 @@ ul {
   width: 100%;
 
   @include for-large-up {
+    display: flex;
+    flex-direction: column;
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
   }
 }

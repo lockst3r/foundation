@@ -6,20 +6,20 @@
     display: none;
   }
   &__content {
+    display: flex;
     width: 1140px;
     margin: auto;
-    display: flex;
   }
   &__column {
-    width: 459px;
     margin-bottom: 13px;
+    width: 459px;
   }
   &__subtitle {
+    margin: 0;
     color: $text-color-green;
     font-weight: 700px;
     font-size: 22px;
     line-height: 34px;
-    margin: 0;
   }
   &__title {
     font-weight: 700;
@@ -43,7 +43,7 @@
   &__advantage-title {
     margin: 0;
     margin-left: 15px;
-    color: #3142c6;
+    color: $main-color-blue;
     line-height: 26px;
     font-weight: 700px;
     font-size: 22px;
@@ -54,11 +54,11 @@
     margin-top: 8px;
     margin-bottom: 0;
     padding-bottom: 20px;
-    border-bottom: 3px solid #3142c6;
+    border-bottom: 3px solid $main-color-blue;
   }
   &__advantage-item {
     display: flex;
-    border-bottom: 1px solid #2b292d26;
+    border-bottom: 1px solid $text-color-light-grey;
     margin-top: 21px;
     padding-bottom: 22px;
   }
