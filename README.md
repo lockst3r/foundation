@@ -14,7 +14,6 @@
 
 ## The tech stack is:
 
-- ul
 +  HTML5
 +  CSS3
 +  FlexBox
