@@ -1,29 +1,18 @@
-## Foundation Website
 
-### QUICK START
+# Foundation Website
 
-In the project directory, you can run:
+### [Site link](https://lockst3r.github.io/foundation/)
 
-npm i
+Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
-npm start
+### The tech stack is:
 
-Runs the app in the development mode.
-Open https://lockst3r.github.io/foundation/ to view in the browser.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+- [Sass (Scss)](https://sass-lang.com/)
+- [BEM methodology](https://en.bem.info/methodology/)
 
-The page will reload if you make edits.
-
-The tech stack is:
-
-1) HTML5 
-2) CSS3
-3) FlexBox
-4) Sass(Scss)
-5) BEM methodology
-
-### Author:
+### Author
 
 Yevhenii Ushakov
-
-
-
